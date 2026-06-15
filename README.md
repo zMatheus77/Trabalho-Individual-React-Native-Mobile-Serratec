@@ -50,7 +50,3 @@ npx expo start
 ```
 
 3. Escaneie o QR Code com o aplicativo Expo Go ou execute em um emulador.
-
-## Autor
-
-Trabalho acadêmico desenvolvido para a disciplina de Desenvolvimento Mobile.
