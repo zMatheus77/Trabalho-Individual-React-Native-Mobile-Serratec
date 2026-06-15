@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, TextInput, Image } from 'react-native';
+import { View, Text, TextInput, Image, TouchableOpacity } from 'react-native';
 import styles from './styles';
 
 export default function App() {
@@ -16,11 +16,14 @@ export default function App() {
           acontecendo
         </Text>
 
-        <View style={styles.button}>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => console.log('Google')}
+        >
           <Text style={styles.buttonText}>
             Entrar com Google
           </Text>
-        </View>
+        </TouchableOpacity>
 
         <View style={styles.button}>
           <Text style={styles.buttonText}>
