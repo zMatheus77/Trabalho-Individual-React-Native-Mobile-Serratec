@@ -15,6 +15,7 @@ Projeto individual para a disciplina Desenvolvimento de Aplicações Multiplataf
 - TextInput
 - Image
 - StyleSheet
+- TouchableOpacity
 
 ## Estrutura do Projeto
 
